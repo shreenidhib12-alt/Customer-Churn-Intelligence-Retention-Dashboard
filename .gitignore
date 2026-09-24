@@ -1,0 +1,21 @@
+# Large data files - do not commit to GitHub
+data/supermarket_sales_raw.csv
+data/clean_data.csv
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Streamlit cache
+.streamlit/
+
+# OS artefacts
+.DS_Store
+Thumbs.db
